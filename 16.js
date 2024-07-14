@@ -12,4 +12,4 @@ var timeLimit = function(fn, t) {
         return Promise.race([onSuccess, timeoutPromise])
         
     }
-};
+}
